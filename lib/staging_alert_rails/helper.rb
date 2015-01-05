@@ -2,7 +2,9 @@ module StagingAlertRails
   module Helper
 
     def staging_alert_bar
-      render("staging_alert_rails/bar", revision: git_revision_number)
+      if Rails.env.staging?
+        render("staging_alert_rails/bar", revision: git_revision_number)
+      end
     end
 
 
