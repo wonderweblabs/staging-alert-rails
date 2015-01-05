@@ -8,6 +8,12 @@ there is a file called "REVISION" with a git tag hash, this will be shown additi
 
 ### Installation
 
+Require in your Gemfile:
+
+```bash
+gem 'staging_alert_rails', git: 'https://github.com/wonderweblabs/staging-alert-rails.git'
+```
+
 Require in your css file:
 
 ```css
