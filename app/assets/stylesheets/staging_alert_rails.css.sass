@@ -1,2 +1,33 @@
-*
-  background: #000
+#staging-alert-bar
+  width: 100%
+  padding: 10px
+  background-color: #fcf8e3
+  border-bottom: 1px solid #faebcc
+  font-family: 'Helvetica', 'Arial', sans-serif
+  color: #8a6d3b
+  .inside-container
+    max-width: 1140px
+    margin: 0 auto
+    clear: both
+  .headline
+    float: left
+    margin-right: 20px
+    font-size: 25px
+    font-family: inherit
+    color: inherit
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.6)
+  .description
+    max-width: 510px
+    margin-top: 5px
+    font-size: 12px
+    line-height: 1.1
+    color: inherit
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.6)
+    font-family: inherit
+
+@media (max-width: 500px)
+  #staging-alert-bar
+    .headline
+      float: none
+      font-size: 16px
+      text-decoration: underline
