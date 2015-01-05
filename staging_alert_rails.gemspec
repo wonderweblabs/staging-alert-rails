@@ -5,7 +5,7 @@ require "staging_alert_rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "staging-alert-rails"
+  s.name        = "staging_alert_rails"
   s.version     = StagingAlertRails::VERSION
   s.authors     = ["Sascha Hillig", "Alexander Schrot"]
   s.email       = ["email@wonderweblabs.com"]
@@ -21,8 +21,6 @@ Gem::Specification.new do |s|
     "Rakefile",
     "README.md"
   ]
-  s.executables   = []
-  s.require_paths = ["lib"]
 
   s.add_dependency 'haml-rails', '>= 0.5.3'
   s.add_dependency 'sass-rails', '>= 4.0.0'
