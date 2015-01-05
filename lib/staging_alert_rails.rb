@@ -1,0 +1,2 @@
+module StagingAlertRails
+end
