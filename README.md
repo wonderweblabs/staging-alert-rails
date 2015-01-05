@@ -25,3 +25,7 @@ Require at the top of you body:
 ```erb
 <%= staging_alert_bar %>
 ```
+
+## License
+
+MIT License.
