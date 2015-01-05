@@ -1,5 +1,5 @@
 module StagingAlertRails
-  class Railtie < ::Rails::Railtie
+  class Engine < ::Rails::Engine
 
     # get helper in app
     config.to_prepare do
