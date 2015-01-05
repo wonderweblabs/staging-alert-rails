@@ -11,6 +11,9 @@ require 'staging_alert_rails/engine'
 
 module StagingAlertRails
 
+  # application root path (the app that uses curo)
+  mattr_accessor :app_root
+
   # root path
   def self.root
     File.expand_path '../..', __FILE__

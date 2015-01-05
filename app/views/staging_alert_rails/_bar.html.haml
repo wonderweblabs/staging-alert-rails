@@ -1,4 +1,6 @@
 #staging-alert-bar
   .inside-container.clearfix
+    - if revision.present?
+      .revision= revision
     .headline= t('staging_alert_bar.headline')
     .description= t('staging_alert_bar.paragraph')
