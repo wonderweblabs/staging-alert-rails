@@ -8,7 +8,7 @@ module StagingAlertRails
 
     # get helper in app
     config.to_prepare do
-      ::ApplicationController.helper(StagingAlertRails::Helper)
+      ActionView::Base.send :include, StagingAlertRails::Helper
     end
 
   end
